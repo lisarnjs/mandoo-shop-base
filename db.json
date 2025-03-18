@@ -1,116 +1,116 @@
 [
   {
     "id": 0,
-    "productName": "만두 포토카드",
+    "productName": "포토카드",
     "productPrice": 10000,
     "productImgFileName": "photoCard-01.png"
   },
   {
     "id": 1,
-    "productName": "만두 손거울",
+    "productName": "손거울",
     "productPrice": 5000,
     "productImgFileName": "handMirror-02.png"
   },
   {
     "id": 2,
-    "productName": "만두 티셔츠",
+    "productName": "티셔츠",
     "productPrice": 15000,
     "productImgFileName": "tshirt-03.png"
   },
   {
     "id": 3,
-    "productName": "만두 로고 컵",
+    "productName": "로고 컵",
     "productPrice": 8000,
     "productImgFileName": "cup-04.png"
   },
   {
     "id": 4,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "로고 가방",
+    "productPrice": 20000,
     "productImgFileName": "bag-05.png"
   },
   {
     "id": 5,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "로고 그릇",
+    "productPrice": 9000,
     "productImgFileName": "bowl-06.png"
   },
   {
     "id": 6,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "만두 노트북",
+    "productPrice": 45000,
     "productImgFileName": "laptop-07.png"
   },
   {
     "id": 7,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "만두 로션",
+    "productPrice": 12000,
     "productImgFileName": "lotion-08.png"
   },
   {
     "id": 8,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "로고 블랙 케이스",
+    "productPrice": 4000,
     "productImgFileName": "colorCase-09.png"
   },
   {
     "id": 9,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "로고 레드 케이스",
+    "productPrice": 4500,
     "productImgFileName": "colorCase-10.png"
   },
   {
     "id": 10,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "로고 그린 케이스",
+    "productPrice": 4000,
     "productImgFileName": "colorCase-11.png"
   },
   {
     "id": 11,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "로고 양말",
+    "productPrice": 6000,
     "productImgFileName": "socks-12.png"
   },
   {
     "id": 12,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "만두 로고 운동화",
+    "productPrice": 30000,
     "productImgFileName": "sneakers-13.png"
   },
   {
     "id": 13,
-    "productName": "만두 로고 컵",
+    "productName": "찡그림 포토 케이스",
     "productPrice": 8000,
     "productImgFileName": "photoCase-14.png"
   },
   {
     "id": 14,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "발라당 포토 케이스",
+    "productPrice": 8500,
     "productImgFileName": "photoCase-15.png"
   },
   {
     "id": 15,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "눈떙글 포토 케이스",
+    "productPrice": 8500,
     "productImgFileName": "photoCase-16.png"
   },
   {
     "id": 16,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "찡그림 로고 노트",
+    "productPrice": 13000,
     "productImgFileName": "note-17.png"
   },
   {
     "id": 17,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "발라당 로고 노트",
+    "productPrice": 13000,
     "productImgFileName": "note-18.png"
   },
   {
     "id": 18,
-    "productName": "만두 로고 컵",
-    "productPrice": 8000,
+    "productName": "[특별 한정] 포토카드",
+    "productPrice": 130000,
     "productImgFileName": "photoCard-19.png"
   }
 ]
