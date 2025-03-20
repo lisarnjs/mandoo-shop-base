@@ -21,6 +21,10 @@ async function fetchPosts() {
 
 // 데이터를 화면에 보여주는 함수
 function displayPosts() {
+  const getCartItems = JSON.parse(localStorage.getItem("cartItems"));
+  let cartIds = [];
+  if (getCartItems) cartIds = getCartItems.map((item) => item.id);
+
   const container = document.getElementById("product-container");
   const start = (currentPage - 1) * postsPerPage;
   const end = currentPage * postsPerPage;
@@ -32,11 +36,12 @@ function displayPosts() {
     postElement.innerHTML = `
       <img src="/imgs/${post.productImgFileName}" />
       <div>
-        <h2>${post.productName}</h2>
-        <p>${post.productPrice}</p>
+      <h2>${post.productName}</h2>
+      <p>${post.productPrice}</p>
 
-        <button id="cart-${post.id}" class="addCartBtn">Cart</button>
-        <button id="order-${post.id}" class="orderBtn">Order</button>
+      <button id="cart-${post.id}" class="addCartBtn" 
+      ${cartIds.includes(post.id) ? "disabled" : ""}>Cart</button>
+      <button id="order-${post.id}" class="orderBtn">Order</button>
       </div>
     `;
     container.appendChild(postElement);
