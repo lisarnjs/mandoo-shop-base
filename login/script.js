@@ -7,7 +7,6 @@ const signupInfo = JSON.parse(localStorage.getItem("signupInfo"));
 if (!signupInfo) {
   alert("회원가입 정보가 없습니다. 회원가입을 먼저 진행해주세요.");
   location.href = "/signup.html";
-  return;
 }
 
 let loginId = "";
@@ -22,6 +21,7 @@ loginPasswordInput.addEventListener("change", (e) => {
 });
 
 loginBtn.addEventListener("click", () => {
+  console.log(loginId, loginPw);
   if (loginId === "" || loginPw === "") {
     alert("아이디/비밀번호를 입력하세요");
     return;
