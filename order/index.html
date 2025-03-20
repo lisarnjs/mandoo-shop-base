@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer type="module" src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Order</h1>
+
+      <div class="order-product-container">
+        <h3>주문 상품</h3>
+      </div>
+
+      <input
+        id="orderName"
+        type="text"
+        placeholder="주문자 이름을 입력하세요"
+      />
+      <input
+        id="orderPhoneNum"
+        type="text"
+        placeholder="휴대폰 번호를 입력하세요(- 제외)"
+      />
+      <input id="orderAddress" type="text" placeholder="주소를 입력하세요" />
+
+      <button id="submitOrder">Order</button>
+      <a href="/index.html">주문 취소하기</a>
+    </main>
+  </body>
+</html>
